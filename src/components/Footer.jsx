@@ -1,5 +1,5 @@
-import Icon from './Icon.jsx'
 import { business } from '../siteData.js'
+import logo from '../assets/reyes-logo.png'
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -7,7 +7,7 @@ export default function Footer() {
     <footer>
       <div className="wrap">
         <div className="brand">
-          <Icon name="leaf" size={22} />
+          <img src={logo} className="logo-mark" alt="" />
           {business.name}
         </div>
         © {year} {business.name} · Berryville, AR · {business.phoneDisplay}

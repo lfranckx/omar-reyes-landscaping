@@ -5,11 +5,11 @@ export default function Hero() {
   return (
     <section className="hero" id="top">
       <div className="wrap">
-        <span className="badge">★ 5.0 on Facebook · Family-run since 2021</span>
+        <span className="badge">★ 5.0 on Facebook · Family-run since 2016</span>
         <h1>{business.name}</h1>
         <p>
           Honest, hardworking lawn care &amp; full-service outdoor work in
-          Berryville and across Northwest Arkansas.
+          Berryville, Carroll County, &amp; across Northwest Arkansas.
         </p>
         <div className="cta-row">
           <a href={business.phoneHref} className="btn btn-primary">

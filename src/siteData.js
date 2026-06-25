@@ -43,12 +43,16 @@ export const services = [
 
 export const reviews = [
   {
-    text: 'Excellent and reliable service. I highly recommend them.',
-    author: 'James Viola',
+    text: "We have used Reyes Lawn for a long time in Eureka Springs. He takes care of both our personal and commercial properties. He's prompt, does good work, and can handle a wide variety of landscaping, gardening, and lawn care needs.",
+    author: 'Colton',
   },
   {
-    text: 'These guys have done my landscaping, power washed my house, and fixed my siding. They are honest, hard workers.',
-    author: 'Cheryl Ashlock',
+    text: "Omar and his team turned the rough, rocky land behind our house into a clean, magical forest — fencing a large area that blends into the trees and building a matching gate from scratch. They work fast and made it look natural and exactly how we envisioned it.",
+    author: 'Lachlan & Raquel',
+  },
+  {
+    text: 'I needed someone out here quickly to help me with some landscaping and Reyes Lawn service showed up immediately and got the job done!',
+    author: 'Maria',
   },
 ]
 

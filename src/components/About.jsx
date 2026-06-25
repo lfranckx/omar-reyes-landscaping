@@ -1,14 +1,14 @@
-import Icon from './Icon.jsx'
+import aboutPhoto from '../assets/webp/reyes-lawncare-dream-team.webp'
 
 export default function About() {
   return (
     <section className="about" id="about">
       <div className="wrap inner">
         <div className="about-photo">
-          <div className="ph">
-            <Icon name="image" size={40} />
-            Add a photo of Omar &amp; the crew
-          </div>
+          <img
+            src={aboutPhoto}
+            alt="Omar Reyes and the Reyes Lawn & Powerwash crew on a job in Northwest Arkansas"
+          />
         </div>
         <div>
           <span className="eyebrow">Meet the team</span>
@@ -26,7 +26,7 @@ export default function About() {
           <p className="signoff">Give us a call or shoot us a text today!</p>
           <div className="stats">
             <div>
-              <div className="n">5+ yrs</div>
+              <div className="n">20+ yrs</div>
               <div className="l">Serving NWA</div>
             </div>
             <div>
