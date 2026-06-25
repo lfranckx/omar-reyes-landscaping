@@ -16,9 +16,9 @@ export default function Hero() {
             <Icon name="phone" size={17} />
             Call or Text {business.phoneDisplay}
           </a>
-          <a href="#services" className="btn btn-ghost">
+          {/* <a href="#services" className="btn btn-ghost">
             See Our Services
-          </a>
+          </a> */}
         </div>
         <div className="sub">
           Family-run<span>•</span>Serving Carroll County &amp; NWA<span>•</span>
