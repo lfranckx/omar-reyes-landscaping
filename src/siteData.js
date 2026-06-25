@@ -68,7 +68,6 @@ export const serviceAreas = [
   'Eureka Springs',
   'Holiday Island',
   'Green Forest',
-  'Bellefonte',
   'Carroll County',
   'Greater NWA',
 ]

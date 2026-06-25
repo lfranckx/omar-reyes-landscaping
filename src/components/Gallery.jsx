@@ -13,7 +13,6 @@ const items = [
   { file: 'landscaping-holiday-island-1-before.webp', title: 'Landscaping · Holiday Island', badge: 'Before', alt: 'Yard in Holiday Island before landscaping work' },
   { file: 'landscaping-holiday-island-2-after.webp', title: 'Landscaping · Holiday Island', badge: 'After', alt: 'Refreshed, tidy landscaping in Holiday Island' },
   { file: 'landscaping-1-before.webp', title: 'Landscape makeover', badge: 'Before', alt: 'Overgrown property before a full landscape makeover' },
-  { file: 'landscaping-2-before.webp', title: 'Landscape makeover', badge: 'Before', alt: 'Second view of the property before landscaping' },
   { file: 'landscaping-3-after.webp', title: 'Landscape makeover', badge: 'After', alt: 'Clean, finished landscaping after the makeover' },
   { file: 'fence-painting-1-before.webp', title: 'Fence painting', badge: 'Before', alt: 'Weathered wood fence before painting' },
   { file: 'fence-painting-2-after.webp', title: 'Fence painting', badge: 'After', alt: 'Freshly painted fence with a clean, even finish' },
