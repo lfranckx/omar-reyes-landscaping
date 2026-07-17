@@ -1,4 +1,5 @@
 import { business } from '../siteData.js'
+import CallButton from './CallButton.jsx'
 
 // Pull every webp in the gallery folder through Vite's asset pipeline.
 const images = import.meta.glob('../assets/webp/*.webp', {
@@ -63,6 +64,9 @@ export default function Gallery() {
               </figure>
             )
           })}
+        </div>
+        <div className="section-cta">
+          <CallButton />
         </div>
         <p className="note">
           See more photos and reels on the{' '}

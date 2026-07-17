@@ -1,4 +1,5 @@
 import aboutPhoto from '../assets/webp/reyes-lawncare-dream-team.webp'
+import CallButton from './CallButton.jsx'
 
 export default function About() {
   return (
@@ -38,6 +39,7 @@ export default function About() {
               <div className="l">Facebook rating</div>
             </div>
           </div>
+          <CallButton className="about-cta" />
         </div>
       </div>
     </section>

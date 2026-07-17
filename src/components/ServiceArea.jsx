@@ -1,4 +1,5 @@
 import { serviceAreas } from '../siteData.js'
+import CallButton from './CallButton.jsx'
 
 export default function ServiceArea() {
   return (
@@ -17,6 +18,9 @@ export default function ServiceArea() {
               {area}
             </span>
           ))}
+        </div>
+        <div className="section-cta">
+          <CallButton variant="light" />
         </div>
       </div>
     </section>

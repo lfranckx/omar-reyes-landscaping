@@ -1,4 +1,5 @@
 import { reviews } from '../siteData.js'
+import CallButton from './CallButton.jsx'
 
 export default function Reviews() {
   return (
@@ -17,6 +18,9 @@ export default function Reviews() {
               <div className="who">— {r.author}</div>
             </div>
           ))}
+        </div>
+        <div className="section-cta">
+          <CallButton />
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import Icon from './Icon.jsx'
 import { services } from '../siteData.js'
+import CallButton from './CallButton.jsx'
 
 export default function Services() {
   return (
@@ -23,6 +24,9 @@ export default function Services() {
               <p>{s.desc}</p>
             </div>
           ))}
+        </div>
+        <div className="section-cta">
+          <CallButton />
         </div>
       </div>
     </section>
