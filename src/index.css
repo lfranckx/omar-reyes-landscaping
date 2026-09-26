@@ -156,6 +156,15 @@ header {
 footer .logo-mark {
   height: 40px;
 }
+
+footer .link-text {
+  color: #fff;
+}
+
+footer .link-text:hover {
+  text-decoration: underline;
+}
+
 .nav-links {
   display: flex;
   gap: 30px;

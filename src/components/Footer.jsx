@@ -10,7 +10,8 @@ export default function Footer() {
           <img src={logo} className="logo-mark" alt="" />
           {business.name}
         </div>
-        © {year} {business.name} · Berryville, AR · {business.phoneDisplay}
+        <div>© {year} {business.name} · Berryville, AR · {business.phoneDisplay}</div>
+        <div>Developed by <a className='link-text' href='https://www.lfxmedia.io/' target='_blank'>LFX Media</a></div>
       </div>
     </footer>
   )
